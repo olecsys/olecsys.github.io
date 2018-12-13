@@ -1,0 +1,9 @@
+Для того, чтобы проверить соединение *SSL* с сервером:
+```bash
+openssl s_client -connect <URL>
+```
+
+Например:
+```bash
+openssl s_client -connect bitbucket.org:443
+```
