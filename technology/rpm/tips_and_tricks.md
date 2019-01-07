@@ -28,3 +28,8 @@ rpmbuild --define "_topdir <RPMBUILD WORK PATH>" --define "debug_package %{nil}"
 Более подробно почитать про различные варианты отключения `brp-python-bytecompile` можно почитать [здесь](https://fedoraproject.org/wiki/Packaging:Python_Appendix#Manual_byte_compilation)
 
 Для сборки `rpm` пакетов под различные версии `Fedora`, `RHEL`, `Mageia` можно использовать очень удобную утилиту [Mock](https://github.com/rpm-software-management/mock/wiki).
+
+Для проверки корректности `spec` файла нужно испольхоавть `rpmlint`
+
+https://fedoraproject.org/wiki/Using_Mock_to_test_package_builds
+https://fedoraproject.org/wiki/How_to_create_an_RPM_package
