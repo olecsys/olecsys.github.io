@@ -13,7 +13,7 @@ openssl s_client -connect bitbucket.org:443
 nmap --script ssl-enum-ciphers -p <PORT> <URL> 
 ```
 
-Например, для проверки *hhtps://bitbucket.org* используется следующая команда:
+Например, для проверки *https://bitbucket.org* используется следующая команда:
 ```bash
 nmap --script ssl-enum-ciphers -p 443 bitbucket.org
 ```
