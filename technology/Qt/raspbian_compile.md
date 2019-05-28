@@ -151,5 +151,37 @@ harfbuzz cups/cups.h
 FROM resin/rpi-raspbian:stretch
 RUN echo "deb-src http://archive.raspbian.org/raspbian stretch main contrib non-free rpi firmware" >> /etc/apt/sources.list
 RUN apt-get update && apt-get install -y \
-  libraspberrypi-bin
+  libraspberrypi-bin \
+  libfontconfig1-dev \
+  libfreetype6-dev \
+  libx11-dev \
+  libxext-dev \
+  libxfixes-dev \
+  libxi-dev \
+  libxrender-dev \
+  libxcb1-dev \
+  libx11-xcb-dev \
+  libxcb-glx0-dev \
+  libxcb1 \
+  libxcb1-dev \
+  libx11-xcb1 \
+  libx11-xcb-dev \
+  libxcb-keysyms1 \
+  libxcb-keysyms1-dev \
+  libxcb-image0 \
+  libxcb-image0-dev \
+  libxcb-shm0 \
+  libxcb-shm0-dev \
+  libxcb-icccm4 \
+  libxcb-icccm4-dev \
+  libxcb-sync1 \
+  libxcb-sync-dev \
+  libxcb-render-util0 \
+  libxcb-render-util0-dev \
+  libxcb-xfixes0-dev \
+  libxrender-dev \
+  libxcb-shape0-dev \
+  libxcb-randr0-dev \
+  libxcb-glx0-dev \
+  libxcb-xinerama0-dev
 ```

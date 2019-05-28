@@ -34,3 +34,9 @@ Install-Package -Name docker -ProviderName DockerMsftProvider -Force
 ```
 
 https://stefanscherer.github.io/sneak-peek-at-lcow/
+
+
+Для использования образов `balenalib/rpi-raspbian`, эмулирующих `Raspberry Pi`, необходимо, чтобы был установлен пакет `qemu` и `qemu-user-static`. На `Ubuntu` установка выполняется следующим образом:
+```bash
+sudo apt-get install qemu qemu-user-static
+```
