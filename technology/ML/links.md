@@ -1,1 +1,0 @@
-* YUV images as training set(https://www.ingentaconnect.com/contentone/ist/ei/2017/00002017/00000019/art00009?crawler=true&mimetype=application/pdf)
